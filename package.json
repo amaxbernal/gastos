@@ -1,0 +1,18 @@
+{
+  "name": "gastos",
+  "version": "1.0.0",
+  "description": "App de control de gastos personales del hub AMAX. Multi-moneda (PHP/EUR), informe mensual por Telegram.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "informe": "node scripts/informe-gastos.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "express": "^4.19.2",
+    "express-basic-auth": "^1.2.1"
+  }
+}
